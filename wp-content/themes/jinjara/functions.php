@@ -4,8 +4,8 @@
 if ( !class_exists( 'ReduxFramework' ) && file_exists( dirname( __FILE__ ) . '/lib/redux-framework/ReduxCore/framework.php' ) ) {
     require_once( dirname( __FILE__ ) . '/lib/redux-framework/ReduxCore/framework.php' );
 }
-if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/lib/redux-framework/sample/sample-config.php' ) ) {
-    require_once( dirname( __FILE__ ) . '/lib/redux-framework/sample/sample-config.php' );
+if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/lib/redux-framework/sample/config.php' ) ) {
+    require_once( dirname( __FILE__ ) . '/lib/redux-framework/sample/config.php' );
 }
 
 function jinjara_setup() {
